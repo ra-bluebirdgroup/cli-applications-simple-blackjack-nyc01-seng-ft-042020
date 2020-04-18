@@ -60,7 +60,6 @@ def runner
   until current_round > 21
         display_card_total(current_round)
          current_round = hit?(current_round)
-         current_round
  end
 
  end_game(current_round)
